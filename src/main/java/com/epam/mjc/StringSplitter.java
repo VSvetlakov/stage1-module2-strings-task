@@ -17,9 +17,7 @@ public class StringSplitter {
 
         String splitString = getSplitString(delimiters);
 
-        List<String> list = getList(source, splitString);
-
-        return list;
+        return getList(source, splitString);
     }
 
     private List<String> getList(String source, String splitString){
